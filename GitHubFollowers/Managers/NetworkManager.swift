@@ -6,14 +6,15 @@
 //  Copyright © 2020 Muhammed. All rights reserved.
 //
 
-import Foundation
+import UIKit
 
 class NetworkManager{
     
     static let shared = NetworkManager()
     private init() {}
     
-    let baseUrl = "https://api.github.com/users/"
+    private let baseUrl = "https://api.github.com/users/"
+    let cache = NSCache<NSString, UIImage>()
     
     
     func getFollowers(for username: String, page: Int , completed: @escaping (Result<[Follower], ErrorMessage>) -> Void){
