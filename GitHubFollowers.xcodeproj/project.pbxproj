@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		5310E3D4250F3178004AAFC0 /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5310E3D3250F3178004AAFC0 /* SearchVC.swift */; };
 		5310E3D6250F31B3004AAFC0 /* FavoritesListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5310E3D5250F31B3004AAFC0 /* FavoritesListVC.swift */; };
+		531279CE25370D6C00DFF472 /* UserInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 531279CD25370D6C00DFF472 /* UserInfoVC.swift */; };
 		531650E12515E5B700C47835 /* GFButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 531650E02515E5B700C47835 /* GFButton.swift */; };
 		531650E32515E92B00C47835 /* GFTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 531650E22515E92B00C47835 /* GFTextField.swift */; };
 		5319DB02253421510098AE9E /* GFEmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5319DB01253421510098AE9E /* GFEmptyStateView.swift */; };
@@ -32,6 +33,7 @@
 /* Begin PBXFileReference section */
 		5310E3D3250F3178004AAFC0 /* SearchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchVC.swift; sourceTree = "<group>"; };
 		5310E3D5250F31B3004AAFC0 /* FavoritesListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesListVC.swift; sourceTree = "<group>"; };
+		531279CD25370D6C00DFF472 /* UserInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoVC.swift; sourceTree = "<group>"; };
 		531650E02515E5B700C47835 /* GFButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFButton.swift; sourceTree = "<group>"; };
 		531650E22515E92B00C47835 /* GFTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFTextField.swift; sourceTree = "<group>"; };
 		5319DB01253421510098AE9E /* GFEmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFEmptyStateView.swift; sourceTree = "<group>"; };
@@ -153,6 +155,7 @@
 				5310E3D3250F3178004AAFC0 /* SearchVC.swift */,
 				5310E3D5250F31B3004AAFC0 /* FavoritesListVC.swift */,
 				538D06E6251885EC00DC2C93 /* FollowersListVC.swift */,
+				531279CD25370D6C00DFF472 /* UserInfoVC.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -305,6 +308,7 @@
 				536EA623251CD823004E8177 /* ErrorMessage.swift in Sources */,
 				53AD61332518B8FE00F3A64F /* GFBodyLabel.swift in Sources */,
 				536FE70D251B35F3001A70EB /* Follower.swift in Sources */,
+				531279CE25370D6C00DFF472 /* UserInfoVC.swift in Sources */,
 				53AD61312518B71000F3A64F /* GFTitleLabel.swift in Sources */,
 				536EA620251C72DE004E8177 /* NetworkManager.swift in Sources */,
 				5310E3D4250F3178004AAFC0 /* SearchVC.swift in Sources */,
