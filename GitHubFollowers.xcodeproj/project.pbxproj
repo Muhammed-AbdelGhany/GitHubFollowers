@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5310A0852540609900EB3B64 /* GFItemInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5310A0842540609900EB3B64 /* GFItemInfoView.swift */; };
 		5310E3D4250F3178004AAFC0 /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5310E3D3250F3178004AAFC0 /* SearchVC.swift */; };
 		5310E3D6250F31B3004AAFC0 /* FavoritesListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5310E3D5250F31B3004AAFC0 /* FavoritesListVC.swift */; };
 		531279CE25370D6C00DFF472 /* UserInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 531279CD25370D6C00DFF472 /* UserInfoVC.swift */; };
@@ -34,6 +35,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5310A0842540609900EB3B64 /* GFItemInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFItemInfoView.swift; sourceTree = "<group>"; };
 		5310E3D3250F3178004AAFC0 /* SearchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchVC.swift; sourceTree = "<group>"; };
 		5310E3D5250F31B3004AAFC0 /* FavoritesListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesListVC.swift; sourceTree = "<group>"; };
 		531279CD25370D6C00DFF472 /* UserInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoVC.swift; sourceTree = "<group>"; };
@@ -77,6 +79,7 @@
 			isa = PBXGroup;
 			children = (
 				5319DB01253421510098AE9E /* GFEmptyStateView.swift */,
+				5310A0842540609900EB3B64 /* GFItemInfoView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -306,6 +309,7 @@
 			files = (
 				536FE710251B3699001A70EB /* User.swift in Sources */,
 				53129DA825386C8200BEB5C6 /* Constants.swift in Sources */,
+				5310A0852540609900EB3B64 /* GFItemInfoView.swift in Sources */,
 				531650E32515E92B00C47835 /* GFTextField.swift in Sources */,
 				538D06E7251885EC00DC2C93 /* FollowersListVC.swift in Sources */,
 				5310E3D6250F31B3004AAFC0 /* FavoritesListVC.swift in Sources */,

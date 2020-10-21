@@ -42,8 +42,7 @@ class GFUserInfoVC: UIViewController {
         view.addSubview(locationImageView)
         view.addSubview(locationLabel)
         view.addSubview(bioLabel)
-        avatarImageView.translatesAutoresizingMaskIntoConstraints = false
-        locationLabel.translatesAutoresizingMaskIntoConstraints = false
+       locationLabel.translatesAutoresizingMaskIntoConstraints = false
         
         
         avatarImageView.downloadImage(url: user.avatarUrl)
